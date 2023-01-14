@@ -13,20 +13,19 @@
   color: #ffffff;
   background: #ff900e;
 }
-.flexbox {
 
-
-}
 /* header part styles*/
 
 .header-container {
   /* height: 1322px; */
   background: rgba(255, 144, 14, 0.1);
 }
-.nav {
+.flexbox {
     display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav {
   gap: 373px;
 }
 .nav-title {
@@ -36,9 +35,6 @@
   font-size: 45px;
 }
 .nav-link-list {
-    display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   margin-top: 63px;
   list-style: none;
 }
@@ -49,8 +45,7 @@
   color: #424242;
 }
 .header-section {
-    display: flex;
-    /* justify-content: center; */
+  display: flex;
   flex-direction: column;
   gap: 20px;
 }
@@ -80,7 +75,7 @@
 }
 
 .header-section img {
-    margin-left: 100px;
+  margin-left: 100px;
   width: 80%;
   height: 40%;
   border-radius: 8px;
