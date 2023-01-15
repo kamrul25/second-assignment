@@ -87,7 +87,7 @@
 /* header styles end */
 /* main part styles start */
 .main {
-  margin: 0;
+  margin: 0 auto;
   background: #ffffff;
 }
 /* features section styles */
@@ -140,7 +140,6 @@
 
 .features-container {
   margin-top: 35px;
-  margin-left: 12px;
 }
 .features-container-title {
   font-weight: 700;
@@ -173,6 +172,7 @@
   margin: 10px 42px 30px 33px;
 }
 /* features-extra-description styles end */
+/* features banner and button styles */
 .feature-banner img {
   width: 708px;
   height: 982px;
@@ -184,9 +184,12 @@
   background: #ff900e;
   border: 0;
   border-radius: 8px;
-  margin-top: -400px;
-  margin-left: -96px;
-}
+  position: relative;
+  top: -130px;
+  left: -96px;
+  /* margin-top: -400px;
+  margin-left: -96px;*/
+} 
 .feature-banner-btn h1 {
   font-weight: 700;
   font-size: 65px;
