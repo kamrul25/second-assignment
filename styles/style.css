@@ -137,11 +137,10 @@
   width: auto;
   height: auto;
 }
-.features-description-section:hover {
-  border: 2px solid rosybrown;
-}
+
 .features-container {
   margin-top: 35px;
+  margin-left: 12px;
 }
 .features-container-title {
   font-weight: 700;
