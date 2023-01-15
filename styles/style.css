@@ -176,6 +176,7 @@
 .feature-banner {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 .feature-banner img {
   width: 708px;
@@ -380,14 +381,22 @@
   .features-container-title {
     padding-left: 15px;
   }
+  .feature-banner{
+   display: block;
+  }
   .feature-banner img {
+    display: block;
     width: 90%;
     height: auto;
     margin-left: 25px;
   }
   .feature-banner-btn{
+    display: block;
     width: 150px;
     height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
     margin: 2% 30%;
   }
   .feature-banner-btn h1{
