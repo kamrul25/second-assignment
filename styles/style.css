@@ -375,6 +375,7 @@
   }
   .features-container {
     margin: 0 auto;
+    padding-left: 22px;
   }
   .features-container-title {
     padding-left: 15px;
@@ -405,6 +406,7 @@
   }
   .facts-description-container{
     margin: 0 auto;
+    padding-left: 22px;
   }
   .facts-description{
     margin-top: 7px;
