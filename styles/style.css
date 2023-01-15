@@ -173,6 +173,10 @@
 }
 /* features-extra-description styles end */
 /* features banner and button styles */
+.feature-banner {
+  display: flex;
+  flex-direction: column;
+}
 .feature-banner img {
   width: 708px;
   height: 982px;
@@ -187,8 +191,6 @@
   position: relative;
   top: -130px;
   left: -96px;
-  /* margin-top: -400px;
-  margin-left: -96px;*/
 } 
 .feature-banner-btn h1 {
   font-weight: 700;
